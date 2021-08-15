@@ -68,4 +68,14 @@ public class Estado {
     public void setAlunos(List<Aluno> alunos) {
         this.alunos = alunos;
     }
+
+    @Override
+    public String toString() {
+        return "Estado{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", sigla='" + sigla + '\'' +
+                ", alunos=" + alunos +
+                '}';
+    }
 }

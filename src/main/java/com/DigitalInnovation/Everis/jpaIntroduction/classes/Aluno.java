@@ -67,4 +67,13 @@ public class Aluno {
     }
 
 
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", estado=" + estado +
+                '}';
+    }
 }
